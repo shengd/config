@@ -86,6 +86,13 @@ export JAVACC_HOME JAVA_HOME
 PS1="[\e[0;36m\!\e[m|\e[1;36m\t\e[m] \u@\h(\j):\e[0;33m\w\e[m\`if [ \$? = 0 ]; then echo -e '\e[0;32m'; else echo -e '\e[0;31m'; fi\`$ \e[m"
 export PS1
 
+# change mode
+alias chx='chmod ugo+x'
+
+# search history using command line as query
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
