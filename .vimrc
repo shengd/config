@@ -41,8 +41,8 @@ noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 "Tabs
 map <leader>tn :tabnew<cr>
 map <leader>tq :tabclose<cr>
-map <leader>tm :tabmove
-map <leader>te :tabedit
+map <leader>tm :tabmove<space>
+map <leader>te :tabedit<space>
 map <leader>tt :tabnext<cr>
 map <leader>tr :tabprev<cr>
 
