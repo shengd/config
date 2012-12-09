@@ -83,7 +83,6 @@ JAVA_HOME="/usr/lib/jvm/java-6-openjdk"
 export JAVACC_HOME JAVA_HOME
 
 # Reset PS1
-PS1="[\e[0;36m\!\e[m|\e[1;36m\t\e[m] \u@\h(\j):\e[0;33m\w\e[m\`if [ \$? = 0 ]; then echo -e '\e[0;32m'; else echo -e '\e[0;31m'; fi\`$ \e[m"
 PS1="[\[\033[0;36m\]\!\[\033[00m\]|\[\033[1;36m\]\t\[\033[00m\]] \u@\h(\j):\[\033[0;33m\]\w\[\033[00m\]\`if [ \$? = 0 ]; then echo -e '\[\033[0;32m\]'; else echo -e '\[\033[0;31m\]'; fi\`$ \[\033[00m\]"
 export PS1
 
